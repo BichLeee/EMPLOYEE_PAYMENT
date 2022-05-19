@@ -44,5 +44,8 @@ void main() {
 		cout << convert->convert(shared_ptr<void>(state.ListEmployees[i])) << endl;
 	}
 
+	cout << endl;
+	system("pause");
+
 	return;
 }

@@ -10,7 +10,7 @@ string ManagerUIConverter::convert(shared_ptr<void> type) {
 	ss << "FixedPayment=" << employee->getFixedPayment() << "$; ";
 	ss << "TotalEmployees=" << employee->getNumOfStaff() << "; ";
 	ss << "PaymentPerEmployee=" << employee->getPricePerStaff() << "$";
-	ss << "\nTotalPayment: " << employee->getPayment() << "$; ";
+	ss << "\n\tTotalPayment: " << employee->getPayment() << "$; ";
 
 	string result = ss.str();
 	return result;
